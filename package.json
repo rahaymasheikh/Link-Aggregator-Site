@@ -1,0 +1,28 @@
+{
+  "name": "hw04",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-001-003-fall-2018/rahaymasheikh-homework04.git"
+  },
+  "author": "rahayma sheikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-001-003-fall-2018/rahaymasheikh-homework04/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-001-003-fall-2018/rahaymasheikh-homework04#readme",
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-plugin-mocha": "^5.2.0",
+    "require": "^2.4.20"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
+  }
+}
