@@ -1,0 +1,27 @@
+<h1>ascii sketchbook</h1>
+<h3>artworks</h3>
+
+
+<form method="GET" action="/" align="right">
+    filter by tag:
+    <input type="text" name="tag" value="">
+    <input type="submit">
+</form>
+
+
+<br/><br/>
+
+
+{{#each artwork}}
+    <li> {{this.date}}
+        {{this.title}}
+        <pre>{{this.artwork}}</pre>
+
+        tags:
+        {{#each tags}}
+            <a href="http://localhost:3000/?tag={{this}}">{{this}}</a>
+        {{/each}}
+        <br/><br/>
+
+    </li>
+{{/each}}
