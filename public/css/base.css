@@ -1,0 +1,42 @@
+/* app.js css */
+
+body{
+    background-color: white;
+}
+
+h3{
+    color: gray;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+h1{
+    color: gray;
+    font-family: 'Bevan', cursive;
+    text-align: center;
+}
+a{
+    color: red;
+}
+
+.mytitle{
+    width: 300px;
+}
+
+.mydate{
+    width: 300px;
+}
+
+.myartwork{
+    height: 300px;
+    width: 300px;
+}
+
+.mytags{
+    width: 300px;
+}
+
+.mylogo{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
